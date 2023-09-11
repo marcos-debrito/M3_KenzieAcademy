@@ -1,0 +1,57 @@
+.projectsSec {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectsSec > span {
+  align-self: start;
+  font-size: var(--f-title-2);
+  font-weight: 800;
+}
+
+.projectsSec > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+  margin-top: 1.25rem;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.projectsSec > ul > li {
+  display: flex;
+  flex-direction: column;
+  border: 0.0625rem solid grey;
+  border-radius: 1.5625rem;
+  width: 45%;
+  min-width: 10.3125rem;
+  padding: 1.875rem;
+  gap: 1.25rem;
+}
+
+.projectsSec > ul > li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectsSec > ul > li > div > span {
+  font-weight: 800;
+}
+
+.projectsSec > ul > li > span {
+  font-size: var(--f-title-4);
+}
+
+.projectsSec > ul > li > a {
+  color: var(--c-brand-1);
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .projectsSec > ul > li {
+    min-width: 80vw;
+  }
+}

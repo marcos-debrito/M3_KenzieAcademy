@@ -1,0 +1,26 @@
+.aboutSec {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutSec > span {
+  font-size: var(--f-title-2);
+  font-weight: 800;
+  align-self: start;
+}
+
+.aboutSec > p {
+  font-size: var(--f-paragraph);
+  font-weight: 400;
+  line-height: 1.875rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .aboutSec > p {
+    width: 60%;
+  }
+}

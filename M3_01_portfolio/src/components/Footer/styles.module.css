@@ -1,0 +1,48 @@
+footer {
+  margin: 4rem 0rem;
+  border-top: 0.0625rem solid grey;
+  border-bottom: 0.0625rem solid grey;
+  padding: 2.5rem 0rem;
+
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+}
+
+footer > div > span {
+  font-size: var(--f-title-2);
+  font-weight: 800;
+  align-self: start;
+}
+
+footer > div > figure {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.625rem;
+}
+
+footer > div > figure > img:hover {
+  transition: 0.6s ease-out;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+footer > p {
+  align-self: center;
+  font-size: var(--f-paragraph);
+  max-width: 250px;
+  text-align: center;
+}
+
+@media (min-width: 528px){
+  footer {
+    justify-content: space-between;
+  }
+}
+@media  (min-width: 769px) {
+  footer > p {
+    min-width: 400px;
+  }
+}

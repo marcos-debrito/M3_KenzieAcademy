@@ -1,0 +1,41 @@
+.bannerSec {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.bannerSec > div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  min-width: 16.25rem;
+  gap: 1.25rem;
+}
+
+.name {
+  font-size: var(--f-title-4);
+  font-weight: regular;
+  color: var(--c-brand-1);
+}
+
+.welcome {
+  font-size: var(--f-title-1);
+  font-weight: bold;
+}
+
+.bannerSec > div > p {
+  font-size: var(--f-paragraph);
+  font-weight: regular;
+}
+
+.bannerSec > div > button {
+  width: 8.125rem;
+}
+
+.bannerSec > img {
+  min-width: 16.25rem;
+  width: 50%;
+}
